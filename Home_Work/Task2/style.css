@@ -37,11 +37,20 @@ img {
 }
 
 .header {
-  margin-bottom: 94px;
+  margin-bottom: 82px;
 }
 
 .navigation {
   padding: 51px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
 }
 
 .navigation__link1 {
@@ -61,10 +70,17 @@ img {
 .navigation__img {
   width: 137px;
   height: 40px;
+  display: flex;
+  order: 0;
 }
 
 .main {
   margin-bottom: 162px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .content__left-side {
@@ -116,4 +132,12 @@ img {
   width: 160px;
   height: 50px;
   flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+  background:none
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
 }
