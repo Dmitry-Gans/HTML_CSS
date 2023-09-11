@@ -48,9 +48,9 @@ img {
 
 .navigation__right {
   display: flex;
-  justify-content: flex-end;
+  width: 533px;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
 }
 
 .navigation__link1 {
