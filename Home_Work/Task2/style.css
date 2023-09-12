@@ -115,7 +115,7 @@ img {
   background: #f25822;
   box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
   color: #fff;
-  font-family: Gilroy-Bold;
+  font-family: "Gilroy-Bold";
   font-size: 15px;
   line-height: normal;
   border: none;
@@ -138,10 +138,61 @@ img {
   flex-shrink: 0;
   border: none;
   cursor: pointer;
-  background:none
+  background: none;
 }
 
 .logos {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.carts__list1 {
+  display: flex;
+  gap: 30px;
+}
+
+.carts {
+  width: 370px;
+  height: 291px;
+  padding: 40px 31px 25px 29px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.txt__carts {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.carts h2 {
+  color: #000;
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+}
+
+.carts p {
+  width: 280px;
+  height: 42px;
+  color: #666;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.btn__carts {
+  color: #000;
+  font-family: "Gilroy-Bold";
+  font-size: 11px;
+  line-height: 150%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.shadows__carts {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
