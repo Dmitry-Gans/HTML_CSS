@@ -105,6 +105,7 @@ img {
 .logos {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 
@@ -151,7 +152,7 @@ img {
   gap: 60px;
 }
 /* Под планшет */
-/* @media (max-width: 1146px) and (min-width: 848px){
+@media (max-width: 1146px) and (min-width: 848px){
     .container{
         max-width: 767px;
     }
@@ -176,11 +177,11 @@ img {
         gap: 32px;
         justify-items: center;
     }
-    .card{
+    .carts{
         background:  #111826;
         max-width: 362px;
     }
         .hidden{
         display: none;
     }
-} */
+}
