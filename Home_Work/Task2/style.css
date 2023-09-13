@@ -13,6 +13,11 @@
   src: url(./font/Gilroy-Medium.woff2);
 }
 
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(./font/gilroy-regular.woff2);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -150,6 +155,7 @@ img {
 .carts__list1 {
   display: flex;
   gap: 30px;
+  margin-bottom: 100px;
 }
 
 .carts {
@@ -195,4 +201,90 @@ img {
 
 .shadows__carts {
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.block2 {
+  max-width: 100%;
+  background: #fafafa;
+}
+
+.upContent__block2 {
+  padding: 92px 0px 54px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 19px;
+}
+
+.upContent__block2 h1 {
+  color: #000;
+  font-family: "Gilroy-Bold";
+  font-size: 45px;
+}
+
+.upContent__block2 p {
+  color: #666;
+  text-align: center;
+  width: 682px;
+  height: 48px;
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.carts__list2 {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.carts2 {
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.txt__carts2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+
+.txt__carts2 h2 {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+}
+
+.txt__carts2 p {
+  color: #aaa;
+  text-align: center;
+  width: 310px;
+  height: 63px;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.shadows__carts2 {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.btn__carts2 {
+  width: 150px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
+  line-height: 150%;
+  border: none;
+  cursor: pointer;
+  margin: 39px 0px 50px 0px;
 }
