@@ -65,18 +65,24 @@ button {
 
 .banner {
   max-width: 1600px;
+  max-height: 764px;
   background: #f1e4e6;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 63px;
+  gap: 60px;
   margin-bottom: 65px;
+}
+
+.banner__img {
+  width: 800px;
+  height: 733px;
 }
 
 .banner__txt {
   display: flex;
   flex-wrap: wrap;
-  width: 403px;
-  height: 93px;
+  max-width: 403px;
+  max-height: 93px;
   margin: 290px 0;
   padding: 0 0 0 16px;
   border-left: 12px solid #f16d7f;
@@ -114,20 +120,24 @@ button {
 
 .categories__button1 {
   background-image: url(./img/categories1.svg);
+  background-size: 100%;
 }
 
 .categories__button2 {
   background-image: url(./img/categories2.svg);
+  background-size: 100%;
 }
 
 .categories__button3 {
   background-image: url(./img/categories3.svg);
+  background-size: 100%;
 }
 
 .categories__button4 {
   height: 180px;
   grid-column: span 3;
   background-image: url(./img/categories4.svg);
+  background-size: 100%;
   border: none;
 }
 
@@ -224,4 +234,69 @@ button {
   font-size: 16px;
   border: 1px solid #ff6a6a;
   background: none;
+}
+
+@media (max-width: 1600px) and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+
+  .header {
+    max-width: 768px;
+  }
+
+  .banner {
+    max-width: 768px;
+    max-height: 764px;
+    gap: 39px;
+  }
+
+  .banner__img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner__txt {
+    max-width: 311px;
+    max-height: 92px;
+    margin: 131px 0;
+  }
+
+  .banner__txt h1 {
+    font-size: 44px;
+  }
+  .banner__txt h2 {
+    font-size: 24px;
+  }
+
+  .categories {
+    gap: 20px;
+    margin-bottom: 109px;
+  }
+
+  .categories__button {
+    width: 232px;
+    height: 167px;
+  }
+
+  .categories__button1 {
+    width: 232px;
+    height: 167px;
+  }
+
+  .separator {
+    margin-bottom: 72;
+  }
+
+  .catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .btn-all {
+    margin-bottom: 70px;
+  }
 }
