@@ -76,7 +76,7 @@ button {
 .banner__txt {
   display: flex;
   flex-wrap: wrap;
-  max-width: 403px;
+  max-width: 406px;
   max-height: 93px;
   padding: 0 0 0 16px;
   border-left: 12px solid #f16d7f;
@@ -250,7 +250,7 @@ button {
   }
 
   .banner__txt {
-    max-width: 311px;
+    max-width: 312px;
     max-height: 92px;
   }
 
