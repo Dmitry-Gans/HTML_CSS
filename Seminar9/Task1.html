@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* При наведении на любую ссылку цвет текста должен стать красным
+При нажатии на ссылку цвет текста должен стать зеленым в момент нажатия
+Найти первый элемент списка и добавить нижнее подчеркивание ссылке
+Найти последний элемент списка и добавить ссылке жирность font-weight: bold
+У третьей ссылки нужно поменять цвет фона на оранжевый */
+      * {
+        text-decoration: none;
+      }
+      .menu__link:hover {
+        color: red;
+      }
+      .menu__link:active {
+        color: green;
+      }
+      .menu__list:first-child {
+        text-decoration: underline;
+      }
+      .menu__list:last-child {
+        font-weight: bold;
+      }
+      .menu__list:nth-child(3) {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="menu">
+      <li class="menu__list"><a href="#" class="menu__link">list-1</a></li>
+      <li class="menu__list"><a href="#" class="menu__link">list-2</a></li>
+      <li class="menu__list"><a href="#" class="menu__link">list-3</a></li>
+      <li class="menu__list"><a href="#" class="menu__link">list-4</a></li>
+    </ul>
+  </body>
+</html>
+
+<!-- https://codepen.io/alexej-kadochnikow/pen/RwQrvov
+
+Необходимо создать псевдоэлемент new
+Разместить его в правом верхнем углу блока product чтобы он не смещал другие элементы
+Размеры блока 35 на 35 px
+цвет фона красный, а цвет текста белый
+Необходимо создать псевдоэлемент sale
+Разместить его в левом верхнем углу блока product чтобы он не смещал другие элементы
+размеры блока 35 на 35 px
+цвет фона оранжевый, а цвет текста белый
+
+Скопировать любой код svg с сайта https://fontawesome.com/
+Необходимо добавить эффект наведения на картинку и поменять значение цвета на purple при наведении и yellow при нажатии
+
+Дан код https://codepen.io/alexej-kadochnikow/pen/yLveZbg
+Необходимо добавить
+При наведении на первый блок, чтобы он смещался на 50px вправо
+при наведении на второй блок, он должен становиться в 2 раза больше
+При наведении на 3 блок, он должен повернуться по часовой стрелке на 60 градусов
+Все наведения должны быть плавными и выполнять переход за 1 секунду
+Можно менять параметры ширины и высоты при необходимости
+
+Дан код https://codepen.io/alexej-kadochnikow/pen/MWQKLop
+Есть 4 блока, вам необходимо сделать 8 угольник
+Для этого вам необходимо подобрать значение высоты
+Задать значение фона для блоков
+Подобрать верный угол поворота -->
+
+<!-- Дан код https://codepen.io/alexej-kadochnikow/pen/GRQozvb
+Необходимо добавить произвольную анимацию на кнопку для этого можно использовать генератор или придумать анимацию самостоятельно  https://animista.net/play/basic/rotate-scale  , если необходимо быстро определиться https://animista.net/play/attention/wobble -->
+
+
+<!-- https://animejs.com/ -->
