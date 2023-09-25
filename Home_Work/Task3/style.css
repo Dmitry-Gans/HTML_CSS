@@ -241,7 +241,6 @@ button {
 
   .banner {
     max-width: 768px;
-    max-height: 764px;
     gap: 39px;
   }
 
@@ -291,5 +290,72 @@ button {
 
   .btn-all {
     margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 343px;
+  }
+
+  .header {
+    max-width: 375px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .banner {
+    max-width: 375px;
+    display: flex;
+  }
+
+  .banner__txt {
+    max-width: 263;
+    padding: 0 0 0 15px;
+    margin: 148px 56px;
+  }
+
+  .banner__txt h1 {
+    font-size: 38px;
+  }
+
+  .banner__txt h2 {
+    font-size: 20px;
+  }
+
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 64px;
+  }
+
+  .categories__button {
+    width: 343px;
+    height: 247px;
+  }
+
+  .categories__button4 {
+    width: 343px;
+    height: 111px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .separator {
+    margin-bottom: 64px;
+  }
+
+  .catalog {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    justify-items: center;
+    margin-bottom: 40px;
+  }
+
+  .btn-all {
+    margin-bottom: 85px;
   }
 }
