@@ -326,8 +326,9 @@ button {
   }
 
   .categories {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-auto-flow: column dense;
     gap: 32px;
     margin-bottom: 64px;
   }
