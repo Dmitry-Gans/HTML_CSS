@@ -85,13 +85,17 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   margin-bottom: 65px;
-  position: relative;
 }
 
 .menu {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 75px;
+  right: -230px;
+  display: none;
+}
+
+.menu-hover:hover ~.menu {
+  display: block;
 }
 
 .menu__content {
@@ -525,6 +529,10 @@ button {
     max-width: 768px;
   }
 
+  .menu {
+    right: -33px;
+  }
+
   .banner {
     max-width: 768px;
     gap: 39px;
@@ -634,6 +642,11 @@ button {
 
   .header {
     max-width: 375px;
+  }
+
+  .menu {
+    top: 72px;
+    right: -16px;
   }
 
   .hidden {
